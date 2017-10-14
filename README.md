@@ -22,6 +22,6 @@ cd /vagrant
 docker-compose up -d
 ```
 
-Open your browser at ![portainer](http://192.168.114.101/portainer)
+Point your browser to http://192.168.114.101/portainer
 
 
