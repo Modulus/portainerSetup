@@ -15,5 +15,5 @@ sudo add-apt-repository \
 apt-get update
 apt-key fingerprint 0EBFCD88
 
-apt-get install docker-ce docker-compose
+apt-get install docker-ce docker-compose -y
 

@@ -5,15 +5,8 @@ You need to install docker and docker compose first
 ```
 vagrant up
 sudo su -
-apt-get update
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-apt-get update
-apt-get install docker-ce docker-compose
+cd /vagrant
+sh install_docker.sh
 ```
 ## Create the containers
 
